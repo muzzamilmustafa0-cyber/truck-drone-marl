@@ -55,7 +55,7 @@
   [55/56] RC207: served=100/100 co2=122.8kg trucks=5 dropped=0
   [56/56] RC208: served=100/100 co2=102.7kg trucks=3 dropped=0
 
-Saved: C:\Users\utente\Desktop\AI and Engineering\REAL_EXPERIMENTS\data\results_v3\e1v3_hybrid_ls.csv (56 rows)
+Saved: C:\Users\utente\Desktop\AI and Engineering\REAL_EXPERIMENTS\data\results\hybrid_ls.csv (56 rows)
 
 === GAT-MARL-LS summary (mean over 56) ===
   feasible service : 99.9%

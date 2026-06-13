@@ -1,5 +1,5 @@
 ======================================================================
-E4 — Controllable Carbon Trade-off (scalarization sweep)
+E4 ï¿½ Controllable Carbon Trade-off (scalarization sweep)
 ======================================================================
   lambda values : [0.0, 1.0, 4.0, 10.0, 25.0]
   instances     : ['C101', 'C201', 'R101', 'RC101']
@@ -255,7 +255,7 @@ E4 — Controllable Carbon Trade-off (scalarization sweep)
     -> saved partial (60 rows)
 
 ======================================================================
-SWEEP COMPLETE -> C:\Users\utente\Desktop\AI and Engineering\REAL_EXPERIMENTS\data\results_v3\e4_carbon_sweep.csv
+SWEEP COMPLETE -> C:\Users\utente\Desktop\AI and Engineering\REAL_EXPERIMENTS\data\results\carbon_sweep.csv
 ======================================================================
 
 === Mean over seeds: feasible service & CO2 by (instance, lambda) ===
