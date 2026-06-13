@@ -1,0 +1,9 @@
+method,feas_service_%,co2_harmonized_kg
+GAT-MARL-LS,99.9,128.2
+GAT-MARL,99.9,280.7
+TD-Split,95.5,217.0
+NNH,94.8,231.3
+ALNS,94.8,91.7
+AM,94.3,230.6
+POMO,93.5,224.9
+CWS,39.3,78.3

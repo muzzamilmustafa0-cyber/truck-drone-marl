@@ -1,0 +1,65 @@
+  [1/56] C101: served=100/100 co2=146.4kg trucks=16 dropped=0
+  [2/56] C102: served=100/100 co2=139.2kg trucks=12 dropped=0
+  [3/56] C103: served=100/100 co2=105.9kg trucks=10 dropped=0
+  [4/56] C104: served=100/100 co2=130.4kg trucks=12 dropped=0
+  [5/56] C105: served=100/100 co2=163.9kg trucks=14 dropped=0
+  [6/56] C106: served=100/100 co2=132.0kg trucks=13 dropped=0
+  [7/56] C107: served=100/100 co2=163.5kg trucks=12 dropped=0
+  [8/56] C108: served=93/100 co2=117.6kg trucks=10 dropped=0
+  [9/56] C109: served=100/100 co2=133.4kg trucks=9 dropped=0
+  [10/56] C201: served=100/100 co2=165.5kg trucks=16 dropped=0
+  [11/56] C202: served=100/100 co2=161.2kg trucks=12 dropped=0
+  [12/56] C203: served=100/100 co2=119.9kg trucks=8 dropped=0
+  [13/56] C204: served=100/100 co2=96.4kg trucks=7 dropped=0
+  [14/56] C205: served=100/100 co2=112.3kg trucks=8 dropped=0
+  [15/56] C206: served=100/100 co2=108.1kg trucks=7 dropped=0
+  [16/56] C207: served=100/100 co2=89.6kg trucks=5 dropped=0
+  [17/56] C208: served=100/100 co2=104.2kg trucks=7 dropped=0
+  [18/56] R101: served=100/100 co2=163.1kg trucks=15 dropped=0
+  [19/56] R102: served=100/100 co2=154.7kg trucks=17 dropped=0
+  [20/56] R103: served=100/100 co2=137.5kg trucks=16 dropped=0
+  [21/56] R104: served=100/100 co2=117.4kg trucks=13 dropped=0
+  [22/56] R105: served=100/100 co2=132.7kg trucks=14 dropped=0
+  [23/56] R106: served=100/100 co2=150.7kg trucks=15 dropped=0
+  [24/56] R107: served=100/100 co2=115.8kg trucks=10 dropped=0
+  [25/56] R108: served=100/100 co2=110.5kg trucks=11 dropped=0
+  [26/56] R109: served=100/100 co2=124.7kg trucks=9 dropped=0
+  [27/56] R110: served=100/100 co2=113.1kg trucks=8 dropped=0
+  [28/56] R111: served=100/100 co2=114.5kg trucks=9 dropped=0
+  [29/56] R112: served=100/100 co2=106.7kg trucks=6 dropped=0
+  [30/56] R201: served=100/100 co2=107.9kg trucks=8 dropped=0
+  [31/56] R202: served=100/100 co2=119.8kg trucks=9 dropped=0
+  [32/56] R203: served=100/100 co2=118.3kg trucks=7 dropped=0
+  [33/56] R204: served=100/100 co2=77.1kg trucks=5 dropped=0
+  [34/56] R205: served=100/100 co2=109.8kg trucks=5 dropped=0
+  [35/56] R206: served=100/100 co2=95.4kg trucks=5 dropped=0
+  [36/56] R207: served=100/100 co2=91.4kg trucks=5 dropped=0
+  [37/56] R208: served=100/100 co2=70.3kg trucks=3 dropped=0
+  [38/56] R209: served=100/100 co2=100.4kg trucks=5 dropped=0
+  [39/56] R210: served=100/100 co2=114.3kg trucks=7 dropped=0
+  [40/56] R211: served=100/100 co2=85.3kg trucks=3 dropped=0
+  [41/56] RC101: served=100/100 co2=178.4kg trucks=13 dropped=0
+  [42/56] RC102: served=100/100 co2=187.0kg trucks=13 dropped=0
+  [43/56] RC103: served=100/100 co2=149.6kg trucks=12 dropped=0
+  [44/56] RC104: served=100/100 co2=139.8kg trucks=9 dropped=0
+  [45/56] RC105: served=100/100 co2=179.8kg trucks=12 dropped=0
+  [46/56] RC106: served=100/100 co2=158.1kg trucks=10 dropped=0
+  [47/56] RC107: served=100/100 co2=162.1kg trucks=9 dropped=0
+  [48/56] RC108: served=100/100 co2=137.5kg trucks=9 dropped=0
+  [49/56] RC201: served=100/100 co2=159.6kg trucks=9 dropped=0
+  [50/56] RC202: served=100/100 co2=153.6kg trucks=8 dropped=0
+  [51/56] RC203: served=100/100 co2=117.0kg trucks=7 dropped=0
+  [52/56] RC204: served=100/100 co2=103.4kg trucks=5 dropped=0
+  [53/56] RC205: served=100/100 co2=176.9kg trucks=10 dropped=0
+  [54/56] RC206: served=100/100 co2=128.6kg trucks=5 dropped=0
+  [55/56] RC207: served=100/100 co2=122.8kg trucks=5 dropped=0
+  [56/56] RC208: served=100/100 co2=102.7kg trucks=3 dropped=0
+
+Saved: C:\Users\utente\Desktop\AI and Engineering\REAL_EXPERIMENTS\data\results_v3\e1v3_hybrid_ls.csv (56 rows)
+
+=== GAT-MARL-LS summary (mean over 56) ===
+  feasible service : 99.9%
+  CO2 (kg)         : 128.2
+  trucks used      : 9.3
+  customers dropped: 0 total across 56 instances
+  dist / BKS       : 1.45x

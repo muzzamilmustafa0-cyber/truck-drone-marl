@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Large / regenerated artifacts
+models/
+*_partial.csv
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

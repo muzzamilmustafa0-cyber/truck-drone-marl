@@ -1,0 +1,283 @@
+======================================================================
+E4 — Controllable Carbon Trade-off (scalarization sweep)
+======================================================================
+  lambda values : [0.0, 1.0, 4.0, 10.0, 25.0]
+  instances     : ['C101', 'C201', 'R101', 'RC101']
+  episodes/seed : 200    seeds: 3
+  total runs    : 60   (~5.0 h @ 5 min/run)
+======================================================================
+  already done  : 0/60
+
+  loaded C101: 100 customers
+  loaded C201: 100 customers
+  loaded R101: 100 customers
+  loaded RC101: 100 customers
+
+
+  [C101] lambda=0.0 seed=0 (1/3)
+    lam=  0.0 seed=0 (1/3) served=100/100 co2=216.1 t=137s
+    -> saved partial (1 rows)
+
+  [C101] lambda=0.0 seed=200 (2/3)
+    lam=  0.0 seed=200 (2/3) served=100/100 co2=203.6 t=158s
+    -> saved partial (2 rows)
+
+  [C101] lambda=0.0 seed=400 (3/3)
+    lam=  0.0 seed=400 (3/3) served=100/100 co2=220.9 t=156s
+    -> saved partial (3 rows)
+
+  [C101] lambda=1.0 seed=0 (1/3)
+    lam=  1.0 seed=0 (1/3) served=100/100 co2=171.6 t=295s
+    -> saved partial (4 rows)
+
+  [C101] lambda=1.0 seed=200 (2/3)
+    lam=  1.0 seed=200 (2/3) served=100/100 co2=222.9 t=138s
+    -> saved partial (5 rows)
+
+  [C101] lambda=1.0 seed=400 (3/3)
+    lam=  1.0 seed=400 (3/3) served=98/100 co2=165.1 t=235s
+    -> saved partial (6 rows)
+
+  [C101] lambda=4.0 seed=0 (1/3)
+    lam=  4.0 seed=0 (1/3) served=100/100 co2=196.5 t=163s
+    -> saved partial (7 rows)
+
+  [C101] lambda=4.0 seed=200 (2/3)
+    lam=  4.0 seed=200 (2/3) served=100/100 co2=210.6 t=78s
+    -> saved partial (8 rows)
+
+  [C101] lambda=4.0 seed=400 (3/3)
+    lam=  4.0 seed=400 (3/3) served=100/100 co2=203.4 t=67s
+    -> saved partial (9 rows)
+
+  [C101] lambda=10.0 seed=0 (1/3)
+    lam= 10.0 seed=0 (1/3) served=100/100 co2=220.9 t=179s
+    -> saved partial (10 rows)
+
+  [C101] lambda=10.0 seed=200 (2/3)
+    lam= 10.0 seed=200 (2/3) served=100/100 co2=224.3 t=99s
+    -> saved partial (11 rows)
+
+  [C101] lambda=10.0 seed=400 (3/3)
+    lam= 10.0 seed=400 (3/3) served=100/100 co2=229.3 t=72s
+    -> saved partial (12 rows)
+
+  [C101] lambda=25.0 seed=0 (1/3)
+    lam= 25.0 seed=0 (1/3) served=100/100 co2=209.2 t=208s
+    -> saved partial (13 rows)
+
+  [C101] lambda=25.0 seed=200 (2/3)
+    lam= 25.0 seed=200 (2/3) served=100/100 co2=207.2 t=98s
+    -> saved partial (14 rows)
+
+  [C101] lambda=25.0 seed=400 (3/3)
+    lam= 25.0 seed=400 (3/3) served=100/100 co2=192.5 t=117s
+    -> saved partial (15 rows)
+
+  [C201] lambda=0.0 seed=3 (1/3)
+    lam=  0.0 seed=3 (1/3) served=100/100 co2=215.2 t=224s
+    -> saved partial (16 rows)
+
+  [C201] lambda=0.0 seed=203 (2/3)
+    lam=  0.0 seed=203 (2/3) served=97/100 co2=136.1 t=243s
+    -> saved partial (17 rows)
+
+  [C201] lambda=0.0 seed=403 (3/3)
+    lam=  0.0 seed=403 (3/3) served=100/100 co2=244.0 t=204s
+    -> saved partial (18 rows)
+
+  [C201] lambda=1.0 seed=3 (1/3)
+    lam=  1.0 seed=3 (1/3) served=100/100 co2=223.7 t=142s
+    -> saved partial (19 rows)
+
+  [C201] lambda=1.0 seed=203 (2/3)
+    lam=  1.0 seed=203 (2/3) served=100/100 co2=235.9 t=166s
+    -> saved partial (20 rows)
+
+  [C201] lambda=1.0 seed=403 (3/3)
+    lam=  1.0 seed=403 (3/3) served=100/100 co2=228.0 t=210s
+    -> saved partial (21 rows)
+
+  [C201] lambda=4.0 seed=3 (1/3)
+    lam=  4.0 seed=3 (1/3) served=100/100 co2=198.8 t=60s
+    -> saved partial (22 rows)
+
+  [C201] lambda=4.0 seed=203 (2/3)
+    lam=  4.0 seed=203 (2/3) served=100/100 co2=236.5 t=82s
+    -> saved partial (23 rows)
+
+  [C201] lambda=4.0 seed=403 (3/3)
+    lam=  4.0 seed=403 (3/3) served=100/100 co2=235.8 t=59s
+    -> saved partial (24 rows)
+
+  [C201] lambda=10.0 seed=3 (1/3)
+    lam= 10.0 seed=3 (1/3) served=100/100 co2=242.3 t=57s
+    -> saved partial (25 rows)
+
+  [C201] lambda=10.0 seed=203 (2/3)
+    lam= 10.0 seed=203 (2/3) served=100/100 co2=214.5 t=77s
+    -> saved partial (26 rows)
+
+  [C201] lambda=10.0 seed=403 (3/3)
+    lam= 10.0 seed=403 (3/3) served=100/100 co2=234.0 t=60s
+    -> saved partial (27 rows)
+
+  [C201] lambda=25.0 seed=3 (1/3)
+    lam= 25.0 seed=3 (1/3) served=100/100 co2=265.7 t=65s
+    -> saved partial (28 rows)
+
+  [C201] lambda=25.0 seed=203 (2/3)
+    lam= 25.0 seed=203 (2/3) served=100/100 co2=228.1 t=59s
+    -> saved partial (29 rows)
+
+  [C201] lambda=25.0 seed=403 (3/3)
+    lam= 25.0 seed=403 (3/3) served=100/100 co2=235.1 t=53s
+    -> saved partial (30 rows)
+
+  [R101] lambda=0.0 seed=1 (1/3)
+    lam=  0.0 seed=1 (1/3) served=100/100 co2=152.0 t=144s
+    -> saved partial (31 rows)
+
+  [R101] lambda=0.0 seed=201 (2/3)
+    lam=  0.0 seed=201 (2/3) served=100/100 co2=208.5 t=108s
+    -> saved partial (32 rows)
+
+  [R101] lambda=0.0 seed=401 (3/3)
+    lam=  0.0 seed=401 (3/3) served=100/100 co2=149.5 t=59s
+    -> saved partial (33 rows)
+
+  [R101] lambda=1.0 seed=1 (1/3)
+    lam=  1.0 seed=1 (1/3) served=100/100 co2=148.2 t=170s
+    -> saved partial (34 rows)
+
+  [R101] lambda=1.0 seed=201 (2/3)
+    lam=  1.0 seed=201 (2/3) served=100/100 co2=151.3 t=202s
+    -> saved partial (35 rows)
+
+  [R101] lambda=1.0 seed=401 (3/3)
+    lam=  1.0 seed=401 (3/3) served=100/100 co2=156.6 t=240s
+    -> saved partial (36 rows)
+
+  [R101] lambda=4.0 seed=1 (1/3)
+    lam=  4.0 seed=1 (1/3) served=100/100 co2=179.8 t=48s
+    -> saved partial (37 rows)
+
+  [R101] lambda=4.0 seed=201 (2/3)
+    lam=  4.0 seed=201 (2/3) served=100/100 co2=176.3 t=192s
+    -> saved partial (38 rows)
+
+  [R101] lambda=4.0 seed=401 (3/3)
+    lam=  4.0 seed=401 (3/3) served=100/100 co2=185.9 t=60s
+    -> saved partial (39 rows)
+
+  [R101] lambda=10.0 seed=1 (1/3)
+    lam= 10.0 seed=1 (1/3) served=100/100 co2=171.4 t=73s
+    -> saved partial (40 rows)
+
+  [R101] lambda=10.0 seed=201 (2/3)
+    lam= 10.0 seed=201 (2/3) served=100/100 co2=173.1 t=72s
+    -> saved partial (41 rows)
+
+  [R101] lambda=10.0 seed=401 (3/3)
+    lam= 10.0 seed=401 (3/3) served=100/100 co2=178.3 t=67s
+    -> saved partial (42 rows)
+
+  [R101] lambda=25.0 seed=1 (1/3)
+    lam= 25.0 seed=1 (1/3) served=100/100 co2=180.7 t=58s
+    -> saved partial (43 rows)
+
+  [R101] lambda=25.0 seed=201 (2/3)
+    lam= 25.0 seed=201 (2/3) served=100/100 co2=188.5 t=128s
+    -> saved partial (44 rows)
+
+  [R101] lambda=25.0 seed=401 (3/3)
+    lam= 25.0 seed=401 (3/3) served=100/100 co2=181.5 t=161s
+    -> saved partial (45 rows)
+
+  [RC101] lambda=0.0 seed=2 (1/3)
+    lam=  0.0 seed=2 (1/3) served=100/100 co2=264.1 t=206s
+    -> saved partial (46 rows)
+
+  [RC101] lambda=0.0 seed=202 (2/3)
+    lam=  0.0 seed=202 (2/3) served=100/100 co2=271.8 t=86s
+    -> saved partial (47 rows)
+
+  [RC101] lambda=0.0 seed=402 (3/3)
+    lam=  0.0 seed=402 (3/3) served=100/100 co2=262.3 t=100s
+    -> saved partial (48 rows)
+
+  [RC101] lambda=1.0 seed=2 (1/3)
+    lam=  1.0 seed=2 (1/3) served=100/100 co2=269.4 t=248s
+    -> saved partial (49 rows)
+
+  [RC101] lambda=1.0 seed=202 (2/3)
+    lam=  1.0 seed=202 (2/3) served=100/100 co2=248.6 t=174s
+    -> saved partial (50 rows)
+
+  [RC101] lambda=1.0 seed=402 (3/3)
+    lam=  1.0 seed=402 (3/3) served=100/100 co2=221.8 t=212s
+    -> saved partial (51 rows)
+
+  [RC101] lambda=4.0 seed=2 (1/3)
+    lam=  4.0 seed=2 (1/3) served=100/100 co2=302.2 t=90s
+    -> saved partial (52 rows)
+
+  [RC101] lambda=4.0 seed=202 (2/3)
+    lam=  4.0 seed=202 (2/3) served=100/100 co2=228.5 t=148s
+    -> saved partial (53 rows)
+
+  [RC101] lambda=4.0 seed=402 (3/3)
+    lam=  4.0 seed=402 (3/3) served=100/100 co2=273.7 t=111s
+    -> saved partial (54 rows)
+
+  [RC101] lambda=10.0 seed=2 (1/3)
+    lam= 10.0 seed=2 (1/3) served=100/100 co2=309.1 t=77s
+    -> saved partial (55 rows)
+
+  [RC101] lambda=10.0 seed=202 (2/3)
+    lam= 10.0 seed=202 (2/3) served=100/100 co2=245.8 t=128s
+    -> saved partial (56 rows)
+
+  [RC101] lambda=10.0 seed=402 (3/3)
+    lam= 10.0 seed=402 (3/3) served=100/100 co2=257.9 t=96s
+    -> saved partial (57 rows)
+
+  [RC101] lambda=25.0 seed=2 (1/3)
+    lam= 25.0 seed=2 (1/3) served=100/100 co2=271.9 t=78s
+    -> saved partial (58 rows)
+
+  [RC101] lambda=25.0 seed=202 (2/3)
+    lam= 25.0 seed=202 (2/3) served=100/100 co2=264.8 t=152s
+    -> saved partial (59 rows)
+
+  [RC101] lambda=25.0 seed=402 (3/3)
+    lam= 25.0 seed=402 (3/3) served=100/100 co2=304.5 t=111s
+    -> saved partial (60 rows)
+
+======================================================================
+SWEEP COMPLETE -> C:\Users\utente\Desktop\AI and Engineering\REAL_EXPERIMENTS\data\results_v3\e4_carbon_sweep.csv
+======================================================================
+
+=== Mean over seeds: feasible service & CO2 by (instance, lambda) ===
+                service    co2
+instance lambda               
+C101     0.0     100.0%  213.5
+         1.0      99.3%  186.5
+         4.0     100.0%  203.5
+         10.0    100.0%  224.9
+         25.0    100.0%  203.0
+C201     0.0      99.0%  198.4
+         1.0     100.0%  229.2
+         4.0     100.0%  223.7
+         10.0    100.0%  230.2
+         25.0    100.0%  243.0
+R101     0.0     100.0%  170.0
+         1.0     100.0%  152.1
+         4.0     100.0%  180.7
+         10.0    100.0%  174.3
+         25.0    100.0%  183.6
+RC101    0.0     100.0%  266.0
+         1.0     100.0%  246.6
+         4.0     100.0%  268.1
+         10.0    100.0%  270.9
+         25.0    100.0%  280.4
