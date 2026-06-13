@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Cooperative Truck-Drone Last-Mile Delivery via Graph-Attention Multi-Agent Reinforcement Learning"
+authors:
+  - family-names: Mustafa
+    given-names: Muzzamil
+repository-code: "https://github.com/muzzamilmustafa0-cyber/truck-drone-marl"
+license: MIT
+version: 1.0.0
+date-released: 2026-06-13
+keywords:
+  - vehicle routing problem
+  - time windows
+  - multi-agent reinforcement learning
+  - graph attention network
+  - truck-drone delivery
