@@ -5,6 +5,11 @@ authors:
   - family-names: Mustafa
     given-names: Muzzamil
 repository-code: "https://github.com/muzzamilmustafa0-cyber/truck-drone-marl"
+doi: 10.5281/zenodo.20682276
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.20682276
+    description: Archived trained models and experimental data
 license: MIT
 version: 1.0.0
 date-released: 2026-06-13

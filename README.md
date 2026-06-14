@@ -1,5 +1,7 @@
 # Cooperative Truck–Drone Last-Mile Delivery via Graph-Attention Multi-Agent Reinforcement Learning
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20682276.svg)](https://doi.org/10.5281/zenodo.20682276)
+
 A heterogeneous truck–drone routing system for the Vehicle Routing Problem with
 Time Windows (VRPTW). A graph-attention multi-agent reinforcement learning policy
 (**GAT-MARL**) decides the time-window-feasible served set and the truck/drone
@@ -91,6 +93,7 @@ python compute_harmonized_co2.py   # one consistent CO2 accounting across method
 The trained model weights (one per Solomon instance, ~725 MB) are released as a
 versioned archive rather than committed to the repository:
 
+- **Archived (DOI):** [10.5281/zenodo.20682276](https://doi.org/10.5281/zenodo.20682276)
 - **Download:** [`trained_models.zip` (Releases)](https://github.com/muzzamilmustafa0-cyber/truck-drone-marl/releases/tag/v1.0.0)
 - Extract into `data/models/` to run the inference and hybrid scripts without retraining.
 - Alternatively, `run_main_experiment.py` regenerates them from scratch.
