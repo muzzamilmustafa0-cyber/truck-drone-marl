@@ -66,6 +66,7 @@ pip install -r requirements.txt
 
 ```bash
 cd src
+python make_concept_figure.py
 python make_architecture_figure.py
 python make_route_figure.py
 python make_feasible_service_fig.py
@@ -105,6 +106,7 @@ figure reproduces directly from the CSVs in `results/` and does not require the 
 
 | File | Content |
 |------|---------|
+| `fig_concept.png`          | Operational concept: depot, truck routes, drone sorties, customer time windows |
 | `fig_architecture.png`     | System pipeline: GAT encoder → actor-critic policy → Dec-POMDP env → consolidation |
 | `fig_routes.png`           | Truck-route geometry before/after consolidation on a Solomon instance (RC101) |
 | `fig_feasible_service.png` | Raw vs time-window-feasible service rate; CWS feasibility by class |
