@@ -26,8 +26,9 @@ for ax, inst in zip(axes, INSTANCES):
     ax.set_xlabel("Carbon weight  λ"); ax.set_xticks(lams)
     if inst == "C101": ax.set_ylabel("Total CO₂ (kg)")
     ax.grid(alpha=0.25)
-    ax.text(0.04, 0.96, f"{inst}\nservice ≈ {np.mean(svc):.0f}%\nρ={rho:+.2f}, p={p:.2f}",
-            transform=ax.transAxes, fontsize=9, va="top", fontweight="bold")
+    ax.set_title(f"{inst}   (service ≈ {np.mean(svc):.0f}%)\nρ={rho:+.2f}, p={p:.2f}",
+                 fontsize=9.5, fontweight="bold")
+    ax.margins(y=0.12)
     ax.spines[["top","right"]].set_visible(False)
 
 out = FIG / "fig_carbon_sweep.png"

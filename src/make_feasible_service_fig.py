@@ -25,9 +25,9 @@ for i, mth in enumerate(ORDER):
     col = "#d7191c" if mth == "CWS" else "#2c7bb6"
     ax.text(x[i]+w/2, agg["feas"].iloc[i]+1, f"{agg['feas'].iloc[i]:.0f}", ha="center", fontsize=8, color=col, fontweight="bold")
 ax.set_xticks(x); ax.set_xticklabels(ORDER, rotation=18, ha="right", fontsize=10)
-ax.set_ylabel("Service rate (%)"); ax.set_ylim(0, 112)
+ax.set_ylabel("Service rate (%)"); ax.set_ylim(0, 116)
 ax.axhline(100, color="gray", ls="--", lw=0.7, alpha=0.5)
-ax.legend(fontsize=9, loc="lower left", frameon=False)
+ax.legend(fontsize=8.5, loc="upper center", bbox_to_anchor=(0.5, 1.13), ncol=2, frameon=False)
 ax.text(0.012, 0.97, "(a)", transform=ax.transAxes, fontsize=12, fontweight="bold", va="top")
 ax.spines[["top","right"]].set_visible(False)
 
